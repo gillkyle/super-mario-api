@@ -1,0 +1,11 @@
+type Query {
+  info: String!
+  levels: [Level!]!
+}
+
+type Level {
+  id: ID!
+  name: String!
+  setting: String!
+  enemies: [String!]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "description": "A simple GraphQL server example with in-memory data",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "@gillkyle",
+  "main": "src/index.js",
+  "keywords": [
+    "graphql",
+    "graphql-server",
+    "graphql-yoga"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint *.js src",
+    "lint-fix": "eslint *.js src --fix"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "graphql-yoga": "^1.8.2",
+    "uniqid": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}
